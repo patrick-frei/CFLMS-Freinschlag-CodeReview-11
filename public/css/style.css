@@ -1,0 +1,17 @@
+body {
+  padding: 4em 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label[for="image"] {
+  border-radius: 0;
+}
+
+#image_thumbnail {
+  display: block;
+  margin: auto;
+  width: 9.3em;
+}
