@@ -33,19 +33,8 @@
             <input type="text" class="form-control" id="name" name="name">
           </div>
           <div class="form-group">
-            <div class="form-row">
-              <div class="col">
-                <label for="age">Age</label>
-                <input type="number" class="form-control" id="age" name="age">
-              </div>
-              <div class="col">
-                <label for="age_unit">Unit</label>
-                <select class="custom-select" id="age_unit" name="age_unit">
-                  <option value="months">Months</option>
-                  <option value="years">Years</option>
-                </select>
-              </div>
-            </div>
+            <label for="age">Age [years]</label>
+            <input type="number" class="form-control" id="age" name="age">
           </div>
           <div class="form-group">
             <label for="description">Description</label>

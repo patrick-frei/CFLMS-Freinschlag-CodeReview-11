@@ -14,8 +14,12 @@
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4" id="content">
     </div>
   </div>
-  <?php if (isset($_SESSION["type"]) == "administrator") include "../templates/pet_modal.html.php" ?>
-  <?php if (isset($_SESSION["type"]) == "administrator") include "../templates/users_modal.html.php" ?>
+  <?php
+  if (isset($_SESSION["type"]) == "administrator") {
+    include "../templates/pet_modal.html.php";
+    include "../templates/users_modal.html.php";
+  }
+  ?>
   <footer>
     <?php include "../templates/footer.html.php"; ?>
   </footer>
