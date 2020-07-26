@@ -91,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 function loadPets(query) {
   document.getElementById("content").innerHTML = "";
-  console.log(`ajax/get_json?table=pets${query ? `&${query}` : ""}`);
   let pets = getJSON(`ajax/get_json?table=pets${query ? `&${query}` : ""}`);
   cardTemp = getTemplate("card");
   for (pet of pets) {
