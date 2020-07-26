@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Erstellungszeit: 25. Jul 2020 um 09:11
+-- Erstellungszeit: 26. Jul 2020 um 20:39
 -- Server-Version: 8.0.20-0ubuntu0.20.04.1
 -- PHP-Version: 7.4.3
 
@@ -52,8 +52,10 @@ INSERT INTO `pets` (`id`, `name`, `age`, `description`, `breed`, `image`, `type`
 (2, 'Howard', 99, 'Howard is kind of weird. We don\'t even know if Howard is from Earth, another planet, or even a different Universe. So if you\'re weird too, you\'ll love Howard.', 'lizard?', '085f928a567d7993e690.jpg', 'small', '• looking funny\r\n• beeing scary', 'Hub Island', '13607', 'New York', 'United States'),
 (3, 'Django', 6, 'Django is a very pleasant young chameleon. Mostly he is colored green, orange, red ... white? huh? Sorry we can\'t see him right now.', 'lizard', 'bdrfdd212d095afr0924.jpg', 'small', '• Confusing people\r\n• Doing nothing', 'İstiklal Avenue', '34430', 'Istanbul', 'Turkey'),
 (4, 'Rajah', 8, 'Yes, you read correctly, it is Princess Jasmin\'s tiger Rajah, whom she had to release for adoption because of her naive father, the Sultan of Agrabah.', 'tiger', '812b6hz7tr9c46b8g0a8.jpg', 'large', '• lying on his back\r\n• going to pedicure', 'The Sultan\'s Palace', '1992', 'Agrabah', ' Iraq'),
-(5, 'Fluffy', 3, 'fghfdgh', 'dfghdfgh', 'e77402b7671bba863743.jpg', 'small', 'fdghdf', 'dfgh', 'fdgh', 'fdgh', 'dfgh'),
-(8, 'Cordulo', 2, 'Test', 'lizard', '7eb1765ebaa3f48bda20.jpg', 'small', 'Nothing', 'Weitgraben 11', '3372', 'Blindenmarkt', 'Österreich');
+(5, 'Fluffy', 3, 'fghfdgh', 'dfghdfgh', 'e77402b7671bba863743.jpg', 'large', 'fdghdf', 'dfgh', 'fdgh', 'fdgh', 'dfgh'),
+(8, 'Cordulo', 2, 'Test', 'lizard', '7eb1765ebaa3f48bda20.jpg', 'small', 'Nothing', 'Weitgraben 11', '3372', 'Blindenmarkt', 'Österreich'),
+(9, 'Charly', 9, 'Test', 'monkey', 'af08d1c93404e9a96d8a.jpg', 'large', 'nothing', 'Somewhere 11', '3372', 'New Ear', 'Portugal'),
+(10, 'Camilla', 4, 'Nothing bla bla', 'giraffe', '4ba6eef23a0d8d371cae.jpg', 'large', 'tall', 'Buxdehude', '00086', 'Hammercity', 'Norway');
 
 -- --------------------------------------------------------
 
@@ -104,7 +106,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT für Tabelle `pets`
 --
 ALTER TABLE `pets`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT für Tabelle `users`
